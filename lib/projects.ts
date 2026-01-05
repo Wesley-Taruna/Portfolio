@@ -194,4 +194,45 @@ export const projects: Project[] = [
 
     tags: ["Figma", "Information System", "Information System"],
   },
+  {
+    id: "Netflix Database system Analysis ",
+    title: "Netflix Database system Analysis",
+    description:"",
+    
+
+    heroImage: "Netflix.png",
+    url: "https://www.figma.com/design/M1vMWZzEZNn6pibfpzoRXi/Parkhere?node-id=2055-2035&t=85j3Djieqv0Ej4GK-1",
+
+    category: "Database System Analysis",
+    industry: "Database Management",
+    year: 2025,
+    pages: 7,
+    platform: "Wix Studio",
+
+    overview:
+      "This project we analyze netflix database model and application prototyping, the project contains netflix’s ERD modelling, conceptual, logical and physical database design, and normalization. This project scope to built an efficient scalable database model for netflix to manage their content and users.",
+    aboutProject:
+      "",
+    pagesList: [
+      { name: "Home", description: "Main landing page with hero section" },
+      { name: "About", description: "Company and team information" },
+      { name: "Services", description: "Medical services overview" },
+      { name: "Doctors", description: "Doctor profiles and specialties" },
+      { name: "Contact", description: "Contact and appointment form" },
+      { name: "Blog", description: "Health articles and news" },
+      { name: "CMS", description: "Content management system" },
+    ],
+
+    features: [
+      "Responsive Design",
+      "Patient Portal",
+      "Appointment Booking",
+      "Doctor Directory",
+      "Telemedicine Integration",
+      "Health Blog",
+      "CMS Integration",
+    ],
+
+    tags: ["Database Structure", "ERD", "Normalization"],
+  },
 ]
