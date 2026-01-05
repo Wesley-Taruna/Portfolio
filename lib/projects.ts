@@ -106,7 +106,7 @@ export const projects: Project[] = [
       "CMS Integration",
     ],
 
-    tags: ["Design", "Portfolio", "Freelance", "Web Design"],
+    tags: ["Healthcare", "Solidity", "React", "DID "],
   },
 
   {
@@ -150,7 +150,7 @@ export const projects: Project[] = [
       "Cloud Sync",
     ],
 
-    tags: ["Mobile", "React Native", "UI/UX", "Performance"],
+    tags: ["E-Commerce", "Figma", "UI/UX", "Mobile App Design"],
   },
   {
     id: "Parkhere",
@@ -192,7 +192,7 @@ export const projects: Project[] = [
       "CMS Integration",
     ],
 
-    tags: ["Figma", "Information System", "Information System"],
+    tags: ["Figma", "Information System", "UI/UX Design"],
   },
   {
     id: "Netflix Database system Analysis ",
@@ -201,7 +201,7 @@ export const projects: Project[] = [
     
 
     heroImage: "Netflix.png",
-    url: "https://www.figma.com/design/M1vMWZzEZNn6pibfpzoRXi/Parkhere?node-id=2055-2035&t=85j3Djieqv0Ej4GK-1",
+    url: "https://drive.google.com/drive/folders/1swo6ZN48HXUi_r2QFoB0NXg7Hyi22mg6?usp=sharing",
 
     category: "Database System Analysis",
     industry: "Database Management",
