@@ -14,10 +14,10 @@ const certifications = [
   },
   {
     id: 2,
-    title: "Financial Statement Audit",
-    issuer: "Myskills",
+    title: "Business Analyst Course (Excel, Statistics, SQL and Tableau)",
+    issuer: "Udemy",
     date: "Jul 2025",
-    credentialId: "MOS-EXCEL-ASSOCIATE-2A4B6C8D0E2F",
+    credentialId: ".",
   },
   {
     id: 3,
@@ -29,10 +29,11 @@ const certifications = [
   },
   {
     id: 4,
-    title: "Business Analyst Course (Excel, Statistics, SQL and Tableau)",
-    issuer: "Udemy",
-    date: "Dec 2024",
+    title: "ISASC IS Audit Security Clinic Binus University",
+    issuer: "Binus University",
+    date: "September 2025",
     credentialId: "ISACA-CISA-9876543210FEDCBA",
+    link: "https://drive.google.com/file/d/1y3hAt2Jv_zs-Z5SE74muirvj2_Xwnstv/view?usp=sharing",
   },
 ]
 
