@@ -7,6 +7,7 @@ const skillGroups = [
     title: "Core Skills",
     skills: [
       { name: "Information System Management", level: 90 },
+      { name: "Business Analysis", level: 90 },
       { name: "Blockchain Fundamentals", level: 85 },
       { name: "Finance", level: 80 },
       { name: "IS Audit", level: 70 },
@@ -20,8 +21,8 @@ const skillGroups = [
       { name: "Java", level: 60 },
       { name: "Solidity", level: 60 },
       { name: "Canva", level: 90 },
-      { name: "Visual Paradigm", level: 80 },
-      { name: "Figma", level: 65 },
+      { name: "Visual Paradigm", level: 90 },
+      { name: "Figma", level: 85 },
     ],
   },
   {
@@ -29,9 +30,9 @@ const skillGroups = [
     skills: [
       { name: "Team Work", level: 95 },
       { name: "Leadership", level: 90 },
-      { name: "Problem Solving", level: 75 },
+      { name: "Problem Solving", level: 85 },
       { name: "Public Speaking", level: 75 },
-      { name: "Communication", level: 90 },
+      { name: "Communication", level: 80 },
       { name: "Adaptability", level: 90 },
       { name: "Critical Thinking", level: 70 },
     ],

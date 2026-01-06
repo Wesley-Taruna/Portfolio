@@ -196,7 +196,7 @@ export const projects: Project[] = [
   },
   {
     id: "Netflix Database system Analysis ",
-    title: "Netflix Database system Analysis",
+    title: "Netflix Database System Analysis",
     description:"",
     
 
