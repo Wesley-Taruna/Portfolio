@@ -59,7 +59,7 @@
             variants={itemVariants}
             className="text-xl md:text-2xl mb-12 text-balance"
           >
-            Blockchain systems, product thinking, and real-world Web3 solutions
+            Business analysis, information systems, and blockchain systems
           </motion.p>
 
           <motion.div
