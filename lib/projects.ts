@@ -235,4 +235,46 @@ export const projects: Project[] = [
 
     tags: ["Database Structure", "ERD", "Normalization"],
   },
+
+  {
+    id: "Driver Chain : Decentralized Ride Sharing Application",
+    title: "Driver Chain : Decentralized Ride Sharing Application",
+    description:"",
+    
+
+    heroImage: "DriverChain.png",
+    url: "https://driverchain.vercel.app/",
+
+    category: "Web3 Ride Sharing Application",
+    industry: "Blockchain",
+    year: 2025,
+    pages: 7,
+    platform: "Wix Studio",
+
+    overview:
+    "DriverChain eliminates middlemen using smart contracts. Connect with Privy to experience secure, peer-to-peer transportation on the Ethereum Sepolia network.",
+    aboutProject:
+      "DriverChain is a decentralized ride-sharing application built on the Ethereum blockchain. It allows drivers to register and offer rides, while passengers can book rides directly through smart contracts. The application aims to reduce intermediaries and provide a transparent, secure platform for ride-sharing.",
+    pagesList: [
+      { name: "Home", description: "Main landing page with hero section" },
+      { name: "About", description: "Company and team information" },
+      { name: "Services", description: "Medical services overview" },
+      { name: "Doctors", description: "Doctor profiles and specialties" },
+      { name: "Contact", description: "Contact and appointment form" },
+      { name: "Blog", description: "Health articles and news" },
+      { name: "CMS", description: "Content management system" },
+    ],
+
+    features: [
+      "Responsive Design",
+      "Patient Portal",
+      "Appointment Booking",
+      "Doctor Directory",
+      "Telemedicine Integration",
+      "Health Blog",
+      "CMS Integration",
+    ],
+
+    tags: ["React", "Smart Contracts", "Metamask Integration", "Type Script", "Ride Sharing Application"],
+  },
 ]
