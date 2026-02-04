@@ -9,23 +9,24 @@ const experiences = [
     company: "PT Multirasa Nusantara (Yoshinoya)",
     period: "Aug 2023 - Sep 2023 ",
     description: "Managing Supplier's data and while coordinating with team to ensure data accuracy of the main database",
+    logo: "/logos/yoshinoya.png",
   },
   {
-  //   id: 2,
-  //   title: "Full Stack Developer",
-  //   company: "Digital Agency Co.",
-  //   period: "2020 - 2022",
-  //   description: "Built scalable web applications and led frontend architecture",
-  // },
+    id: 2,
+    title: "Business Solution Analyst",
+    company: "PT Fajar Mitra Indah (Family Mart Indonesia)",
+    period: "Jan 2026 - Present",
+    description: "Business Process Mapping, Requirement Gathering, and System Testing for New Store Opening Projects",
+    logo: "/logos/yoshinoya.png",
+  },
   // {
   //   id: 3,
   //   title: "Junior Developer",
   //   company: "StartUp Labs",
   //   period: "2018 - 2020",
   //   description: "Developed responsive websites and user interfaces",
-  },
+  
 ]
-
 export default function Experience() {
   const headingVariants = {
     hidden: { opacity: 0, y: 30 },
@@ -82,22 +83,40 @@ export default function Experience() {
             },
           }}
           viewport={{ once: true, margin: "-100px" }}
-          className="space-y-8"
+          className="space-y-12"
         >
           {experiences.map((exp) => (
             <motion.div
               key={exp.id}
               variants={itemVariants}
-              className="group border-l-2 border-gray-700 hover:border-white transition pl-8 py-4 relative"
+              className="group border-l-2 border-gray-800 hover:border-white transition-colors duration-500 pl-8 py-4 relative"
             >
               {/* Timeline dot */}
-              <div className="absolute left-0 top-8 w-4 h-4 bg-green rounded-full transform -translate-x-2.5 group-hover:scale-150 transition" />
+              <div className="absolute left-0 top-8 w-4 h-4 bg-white opacity-0 group-hover:opacity-100 rounded-full transform -translate-x-2.5 transition-all duration-500 shadow-[0_0_15px_rgba(255,255,255,0.8)]" />
 
-              <div>
-                <h3 className="text-2xl font-bold text-white mb-1">{exp.title}</h3>
-                <p className="text-gray-400 text-lg mb-2">{exp.company}</p>
-                <p className="text-gray-500 text-sm mb-4">{exp.period}</p>
-                <p className="text-gray-300">{exp.description}</p>
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-8">
+                {/* Left Side: Job Details */}
+                <div className="flex-1">
+                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-1 group-hover:text-white transition-colors">
+                    {exp.title}
+                  </h3>
+                  <p className="text-gray-400 text-lg font-medium mb-2">{exp.company}</p>
+                  <p className="text-gray-500 text-sm mb-4 font-mono uppercase tracking-wider">{exp.period}</p>
+                  <p className="text-gray-300 max-w-2xl leading-relaxed">
+                    {exp.description}
+                  </p>
+                </div>
+
+                {/* Right Side: Logo */}
+                {exp.logo && (
+                  <div className="flex-shrink-0 md:ml-6">
+                    <img
+                      src={exp.logo}
+                      alt={`${exp.company} logo`}
+                      className="w-32 md:w-44 h-auto object-contain grayscale group-hover:grayscale-0 opacity-40 group-hover:opacity-100 transition-all duration-700 ease-in-out transform group-hover:scale-105"
+                    />
+                  </div>
+                )}
               </div>
             </motion.div>
           ))}
